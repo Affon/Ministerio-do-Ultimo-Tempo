@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministério do Último Tempo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+  
+
+    <!--Barra de Navegação-->
+
+    <nav class="navegar">
+        <div class="esquerda" id="esquerda">
+            <img src="mut_logo.png" alt="Logo Ministério do Último Tempo" id="mut_logo" onclick="logotipo()">
+            <span class="texto">Ministério do Último Tempo</span>
+        </div>
+        <div class="barra">
+            <ul class="barra_de_lado">
+                <li onclick="ocultarMenu()" class="xmark">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </li>
+                <li><a class="active" href=""><i class="fa fa-home"></i> Início</a></li>
+                <li><a href="literaturas.html"><i class="fa fa-book"></i> Literaturas</a></li>
+                <li><a href="pregações.html"><i class="fa fa-microphone"></i> Pregações</a></li>
+                <li><a href="contactos.html"><i class="fa fa-phone"></i> Contactos</a></li>
+            </ul>
+
+            <ul>
+                <li class="não_para_mobile"><a class="active" href="#"><i class="fa fa-home"></i> Início</a></li>
+                <li class="não_para_mobile"><a href="literaturas.html"><i class="fa fa-book"></i> Literaturas</a></li>
+                <li class="não_para_mobile"><a href="pregações.html"><i class="fa fa-microphone"></i> Pregações</a></li>
+                <li class="não_para_mobile"><a href="contactos.html"><i class="fa fa-phone"></i> Contactos</a></li>
+                <li class="menu-botão" onclick="mostrarMenu()"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" height="42px" viewBox="0 -960 960 960" width="39px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Fim da Barra de Navegação-->
+
+
+    
+
+
+
+    <!--Página Inicial-->
+
+    <section id="inicial">
+        <div id="textos-iniciais">
+            <h2>Ministério do Último Tempo</h2>
+        <p> Anunciando a Mensagem da Restauração de Todas as Coisas, e a vinda do Nosso Senhor Jesus, o Cristo</p>
+        <p> <b> - Atos 3:19-21 </b>  </p>
+        </div>
+        
+
+        <div class="botoes">
+            <a class="preto" href="literaturas.html">Ver Brochuras</a>
+          <a class="amarelo"  id="saber_mais"  href="#">Saber Mais...</a>
+        </div>
+    </section>
+
+    <!-- Fim da Página Inicial-->
+
+
+
+
+    <!-- Sobre Nós -->
+    <section id="sobre-nós">
+        <h1>Sobre Nós</h1>
+        <p>“Bem-aventurado é o povo que conhece o som da trombeta...” - Salmos 89:15</p>
+
+        <div class="sobre-base">
+            <div class="sobre-caixa"> <i class="fa fa-people-group"></i>
+                <h3>Igreja de Cristo: Um Povo à Parte</h3>
+                <p>A Igreja é um Lugar de Aperfeiçoamento para Chegar ao Reino dos Céus. É necessário que o Filho de Deus adquira o pleno conhecimento da Verdade (1º Timóteo 2:4-6); "Porém, vós sois geração eleita, sacerdócio real, nação santa, povo de propriedade exclusiva de Deus, cujo propósito é proclamar as grandezas daquele que vos convocou das trevas para sua maravilhosa luz."</p>
+                <p>- 2º Pedro 2:9</p>
+               
+            </div>
+
+
+
+            <div class="sobre-caixa"> <i class="fa fa-hammer"></i>
+                <h3>A Obra da Restauração de Todas as Coisas</h3>
+                <p> É necessário que a Igreja volte ao Fundamento Apostólico, o Modelo que Cristo deixou (João 17:20); E Afaste-se de todas heresias que o INIMIGO vem plantado nas Igrejas. Doutrinas de Procedência humana e não Divina!</p>
+                <p>- Atos 3:19-21</p>
+            </div>
+
+
+            <div class="sobre-caixa"> <i class="fa fa-crown"></i>
+                <h3>ARREBATAMENTO: "Jesus Cedo Vem"</h3>
+                <p>O Arrebatamento é uma Realidade!: "Jesus disse: - Creiam em Deus e creiam também em mim. Na casa do meu Pai há muitos aposentos; se não fosse assim, eu lhes teria dito. Vou preparar-lhes um lugar. E, depois que eu for e preparar um lugar para vocês, voltarei e os levarei comigo para que onde eu estiver vocês estejam também" </p>
+                <p>- João 14:1-3</p>
+            </div>
+        </div>
+        
+    </section>
+    <!--Fim de Sobre Nós-->
+
+
+
+
+
+    <!-- Em Literatura-->
+
+    <section id="literatura">
+        <h1>Em Literatura</h1>
+        <p>Veja Todas as Brochuras e Folhetos na aba <svg class="ver-barra-mobile"  xmlns="http://www.w3.org/2000/svg" style="position: relative; top: 8px;"
+             height="30px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>acima <i class="fa fa-book" style="color: rgb(21, 21, 100);"></i> <b> Literaturas. </b> </p>
+        <br>
+        <p>“Ele nos capacitou para sermos ministros de uma nova aliança, não de letra, mas do Espírito;<b> pois a letra mata, mas o Espírito vivifica” </b> - 2 Cor 3:6</p>
+
+        <div class="literatura-caixa">
+            <div class="literaturas">
+
+                <img src="Grande meretriz.PNG" alt="">
+                <div class="detalhes">
+                    <h6> A Grande Meretriz</h6>
+                    <span>As Duas Mulheres do Apocalipse 12 & 17, 2ª Parte</span>
+                    
+                </div>
+
+        <a href="https://drive.google.com/uc?export=download&id=19-5sGNz9okNH5WpFRoMGJ_4S2Pyo0-P4">
+            <div class="baixar">  <i class="fa fa-file-arrow-down"></i></div>
+        </a>         
+                
+            </div>
+
+
+
+
+
+
+            <div class="literaturas">
+                <img src="arrebatamento 1.PNG" alt="">
+                <div class="detalhes" id="arranjar">
+                    <h6> Arrebatamento Na Igreja de Cristo 1ª Parte</h6>
+                    <span>AS Evidências bíblicas sobre o Arrebatamento dos ELEITOS</span>
+                    
+    
+    
+                </div>
+
+             <a href="https://drive.google.com/uc?export=download&id=1ZJl7WL-esvU4O_9Zx7-i8dYHEHf1tMp4">
+                <div class="baixar">  <i class="fa fa-file-arrow-down"></i></div>
+             </a>   
+                
+            </div>
+
+
+
+
+
+            <div class="literaturas">
+                <img src="A condição da Mulher.PNG" alt="">
+                <div class="detalhes">
+                    <h6> A Condição da Mulher</h6>
+                    <span> - Da Criação à queda <br>  - A Voz da Mulher <br>  - O pecado Original 
+                     <br> - Quem era pois "Caim"?, etc...
+                    </span>
+                    
+    
+    
+                    
+                </div>
+
+                <a href="https://drive.google.com/uc?export=download&id=10N_rumVQX4BYKq64RjHRzZai2TbbFh5k">
+                    <div class="baixar">  <i class="fa fa-file-arrow-down"></i></div>
+                 </a>  
+                    
+            </div>
+
+
+
+
+
+            <div class="literaturas">
+                <img src="Rio Jordão.PNG" alt="">
+                <div class="detalhes">
+                    <h6> O Rio Jordão no Antigo e Novo Testamento</h6>
+                    <span>Das Sombras das Coisas, à Exata Representação </span>
+                    
+                </div>
+
+                <a href="https://drive.google.com/uc?export=download&id=1lqGihUJW9eIS2jchhGgZTG1RGDZDoqty">
+                    <div class="baixar2" id="baixar">  <i class="fa fa-file-arrow-down"></i></div>
+                 </a>  
+               
+            </div>
+
+
+
+
+
+            <div class="literaturas">
+                <img src="Mulher e o Dragão.PNG" alt="">
+                <div class="detalhes">
+                    <h6> A Mulher e o Dragão</h6>
+                    <span>A Mulher e o Dragão - Apocalipse 12</span>
+                    
+    
+    
+                </div>
+
+                
+
+                <a href="https://drive.google.com/uc?export=download&id=1Y0vdlxGYYjvXZhJDRvJnmj1k4OUsdy-9">
+                    <div class="baixar">  <i class="fa fa-file-arrow-down"></i></div>
+                 </a>  
+                
+            </div>
+
+
+            
+            <div class="literaturas">
+                <img src="Vinho na bíblia.PNG" alt="">
+                <div class="detalhes">
+                    <h6> O Vinho na Bíblia</h6>
+                    <span>  - O povo de Deus e o consumo do vinho e bebidas alcóolicas.</span>
+                    <br>
+                    <span> - O “vinho” da Ceia do Senhor</span>
+                    
+                </div>
+
+                
+
+                <a href="https://drive.google.com/uc?export=download&id=1WSl6ayhTuOz2jEvdpFcabfscP9gmrpIk">
+                    <div class="baixar">  <i class="fa fa-file-arrow-down"></i></div>
+                 </a>  
+                
+            </div>
+
+
+
+            <div class="literaturas">
+                <img src="abominação da desolação.png" alt="">
+                <div class="detalhes">
+                    <h6> Abominação da Desolação no Lugar Santo</h6>
+                    <span>Daniel 9:23 - A Visão de Daniel interpretada...</span>
+                    
+    
+    
+                </div>
+
+               
+
+                <a href="https://drive.google.com/uc?export=download&id=12nXz1svVb_vbWzjqCHZiYvLBODY597Fs">
+                    <div class="baixar">  <i class="fa fa-file-arrow-down"></i></div>
+                 </a>  
+                
+            </div>
+
+
+
+
+
+
+            <div class="literaturas">
+                <img src="falsos rostos de jesus.PNG" alt="">
+                <div class="detalhes">
+                    <h6> Os Falsos Rostos de Jesus</h6>
+                    <span>As Incoerências e contradições flagrantes com as Escrituras</span>
+                    
+    
+    
+                </div>
+
+                
+
+                <a href="https://drive.google.com/uc?export=download&id=1gbbILIGbvDQFCOfgAyuzCeiG3oeAK3Lb">
+                    <div class="baixar">  <i class="fa fa-file-arrow-down"></i></div>
+                 </a>  
+                
+            </div>
+
+
+
+
+
+
+
+
+
+            
+        </div>
+    </section>
+
+
+
+
+
+                   <!-- Rodapé -->
+            <footer id="rodapé">
+                <div class="rodapé">
+                    <h3 id="rodapé-literaturas" onclick="literaturas()">Literaturas</h3>
+                    <li>  <a class="rodapé-brochuras" href="literaturas.html">Brochuras</a></li>
+                    <li>  <a class="rodapé-brochuras" href="folhetos.html">Folhetos</a></li>
+                    
+                </div>
+
+
+                <div class="rodapé">
+                    <h3 id="rodapé-pregações" onclick="pregações()">Pregações</h3>
+                    <li>Ensinamentos</li>
+                    <li>Exortações</li>
+                </div>
+
+
+
+                
+                <div class="rodapé">
+                    <h3  id="rodapé-contactar" onclick="contactar_nos()">Contactar-nos</h3>
+                    <li id="local">  <a href="https://maps.app.goo.gl/MiAXBLdc73nYSDoaA"
+                     target="_blank" id="local2">  <i class="fa fa-location-dot"></i>    Nossa Localização</a></li>
+                    <li onclick="copyToClipboard('943 335 853')"> <i class="fa fa-phone"></i>   +244 943 335 853</li>
+                    <li onclick="copyToClipboard('925 591 193')"> <i class="fa fa-phone"></i>   +244 925 591 193</li>
+                </div>
+            
+
+
+                <div class="copyright">
+                    <p>Copyright ©2024 Todos os direitos reservados.</p>
+                    <div class="pro-links">
+                        <h3>Nossas Redes Sociais</h3>
+               <a href="https://www.facebook.com/Ultimotempo50">   <i class="fab fa-facebook-f" id="fb" style="color: white;"></i></a>     
+                 <a href="https://www.youtube.com/@tvvozdoultimotempo4450">  <i class="fab fa-youtube" id="yt" style="color: white;"></i>  </a>
+                   <a href="https://www.tiktok.com/@ministeriodoultimotempo">   <i class="fab fa-tiktok" id="tk" style="color: white;"></i>    </a>    
+                        <i  onclick="WhatsappNumbers()" class="fab fa-whatsapp" id="what"></i>
+                      
+        
+                    </div>
+                </div>
+            </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
